@@ -1,0 +1,43 @@
+=============================================================================
+SecureBallot : RFID Based Secure Electronic Voting System Election Audit Log
+=============================================================================
+Election ID           : EC2026-001
+Polling Booth         : Booth-08
+Polling Officer       : 12611820
+DATE                  : 03-10-2026
+
+------------------------------------------------------------------------------
+
+03-10-2026,02:35:59,SYSTEM_START,-,SUCCESS,System Initialized
+03-10-2026,02:36:10, CARD_SCAN ,12611820, RECEIVED, RFID Detected
+03-10-2026,02:36:10, OFFICER_LOGIN,12611820, SUCCESS, Officer authenticated
+
+03-10-2026,01:01:40, CARD_SCAN ,12556450, RECEIVED, RFID Detected
+
+03-10-2026,01:02:00, START_VOTING,, SUCCESS, Voting Enabled
+
+03-10-2026,01:02:05, CARD_SCAN ,12556450, RECEIVED, RFID Detected
+03-10-2026,01:02:05, AUTHENTICATION,12556450, SUCCESS, Voter Authenticated
+03-10-2026,01:02:05, PASSWORD_CHECK ,12556450, SUCCESS, Valid_Password
+03-10-2026,01:02:19, VOTE_CAST ,12556450, SUCCESS, Vote Recorded
+
+03-10-2026,01:02:30, CARD_SCAN ,12556450, RECEIVED, RFID Detected
+03-10-2026,01:02:30, AUTHENTICATION,12556450, SUCCESS, Voter Authenticated
+03-10-2026,01:02:30, DUPLICATE_VOTE,12556450, BLOCKED, Already Voted
+
+03-10-2026,01:02:36, CARD_SCAN ,12531874, RECEIVED, RFID Detected
+03-10-2026,01:02:36, AUTHENTICATION,12531874, SUCCESS, Voter Authenticated
+03-10-2026,01:02:36, PASSWORD_CHECK ,12531874, SUCCESS, Valid_Password
+03-10-2026,01:02:46, VOTE_CAST ,12531874, SUCCESS, Vote Recorded
+
+03-10-2026,01:02:58, CARD_SCAN ,12533660, RECEIVED, RFID Detected
+03-10-2026,01:02:58, AUTHENTICATION,12533660, SUCCESS, Voter Authenticated
+03-10-2026,01:02:58, PASSWORD_CHECK ,12533660, SUCCESS, Valid_Password
+03-10-2026,01:03:08, VOTE_CAST ,12533660, SUCCESS, Vote Recorded
+
+03-10-2026,01:03:25, CARD_SCAN ,12611820, RECEIVED, RFID Detected
+03-10-2026,01:03:25, OFFICER_LOGIN,12611820, SUCCESS, Officer authenticated
+03-10-2026,01:03:43, VIEW_RESULT,12611820, SUCCESS, Result Viewed
+03-10-2026,01:03:58, STOP_VOTING,12611820, SUCCESS, Voting Stopped
+
+
