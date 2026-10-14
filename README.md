@@ -1,5 +1,5 @@
 🗳️️ SecureBallot : RFID-Based Electronic Voting System
-An embedded voting system prototype engineered with ARM7 LPC2148 and Embedded C
+An embedded voting system prototype engineered with ARM7 LPC2148 and Embedded c
 
 Platform Protocol Language IDE Status
 
